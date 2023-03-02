@@ -3,7 +3,7 @@
 import grpc
 
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
-import todo_pb2 as todo__pb2
+import todo_app.proto.todo_pb2 as todo__pb2
 
 
 class TodoControllerStub(object):
