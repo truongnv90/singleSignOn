@@ -1,8 +1,13 @@
 # lib use for SSO:
+- django-allauth: https://django-allauth.readthedocs.io/en/latest/index.html
 
-
+# command need to run:
+```shell
+python manage.py runserver
+```
 
 # super user login django admin
+url: http://127.0.0.1:8000/admin
 acc: truongnv
 pass: abc1234.
 
