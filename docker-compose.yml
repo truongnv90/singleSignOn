@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  login_google:
+    container_name: login_google
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: always
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+
+  todo_gprc:
+    container_name: todo_gprc
+    command: python manage.py grpcrunserver 0.0.0.0:50051 --dev
+    restart: always
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+      - "50051:50051"
