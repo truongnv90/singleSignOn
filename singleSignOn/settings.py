@@ -50,6 +50,10 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     # all auth provider
     'allauth.socialaccount.providers.google',
+
+    # GPRS
+    'django_grpc_framework',
+    'todo_app'
 ]
 
 MIDDLEWARE = [
