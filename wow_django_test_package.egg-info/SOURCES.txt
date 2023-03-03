@@ -30,8 +30,6 @@ setup.py
 ./todo_app/proto/__init__.py
 ./todo_app/proto/todo_pb2.py
 ./todo_app/proto/todo_pb2_grpc.py
-./wow_django/__init__.py
-./wow_django/wow_django.py
 loginGoogle/templates/loginGoogle.html
 todo_app/proto/__init__.py
 todo_app/proto/todo.proto

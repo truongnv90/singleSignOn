@@ -8,5 +8,6 @@ Author-email: truongnguyenvan0590@gmail.com
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: APACHE License
 Classifier: Operating System :: OS Independent
+Provides: manage
 Requires-Python: >=3.8
 License-File: LICENSE

@@ -1,4 +1,3 @@
 loginGoogle
 singleSignOn
 todo_app
-wow_django

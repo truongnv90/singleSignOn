@@ -36,4 +36,5 @@ setup(
     packages=find_packages(where="."),
     python_requires=">=3.8",
     scripts=["manage.py"],
+    provides=['manage']
 )
