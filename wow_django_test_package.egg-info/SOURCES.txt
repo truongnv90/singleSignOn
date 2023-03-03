@@ -2,7 +2,6 @@ LICENSE
 MANIFEST.in
 README.md
 manage.py
-pyproject.toml
 setup.py
 ./loginGoogle/__init__.py
 ./loginGoogle/admin.py
@@ -37,9 +36,6 @@ todo_app/proto/__init__.py
 todo_app/proto/todo.proto
 todo_app/proto/todo_pb2.py
 todo_app/proto/todo_pb2_grpc.py
-todo_app/proto/__pycache__/__init__.cpython-310.pyc
-todo_app/proto/__pycache__/todo_pb2.cpython-310.pyc
-todo_app/proto/__pycache__/todo_pb2_grpc.cpython-310.pyc
 wow_django_test_package.egg-info/PKG-INFO
 wow_django_test_package.egg-info/SOURCES.txt
 wow_django_test_package.egg-info/dependency_links.txt
