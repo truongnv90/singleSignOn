@@ -32,10 +32,14 @@ setup(
         "License :: OSI Approved :: APACHE License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "."},
     packages=find_packages(where="."),
     python_requires=">=3.8",
     scripts=["manage.py"],
     provides=['manage'],
     include_package_data=True,
+    package_dir={"": "."},
+    package_data={
+        "loginGoogle.templates": ["loginGoogle.html"],
+        "todo_app.proto": ["*.proto"],
+    }
 )

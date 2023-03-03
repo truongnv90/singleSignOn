@@ -10,6 +10,8 @@ setup.py
 ./loginGoogle/tests.py
 ./loginGoogle/views.py
 ./loginGoogle/migrations/__init__.py
+./loginGoogle/templates/__init__.py
+./loginGoogle/templates/loginGoogle.html
 ./singleSignOn/__init__.py
 ./singleSignOn/asgi.py
 ./singleSignOn/handlers.py
@@ -27,10 +29,12 @@ setup.py
 ./todo_app/migrations/0001_initial.py
 ./todo_app/migrations/__init__.py
 ./todo_app/proto/__init__.py
+./todo_app/proto/todo.proto
 ./todo_app/proto/todo_pb2.py
 ./todo_app/proto/todo_pb2_grpc.py
 ./wow_django/__init__.py
 ./wow_django/wow_django.py
+loginGoogle/templates/__init__.py
 loginGoogle/templates/loginGoogle.html
 todo_app/proto/__init__.py
 todo_app/proto/todo.proto
