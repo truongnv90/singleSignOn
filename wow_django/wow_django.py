@@ -8,6 +8,8 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../singleSig
 
 def boot_django():
     """Run administrative tasks."""
+    from singleSignOn.settings import INSTALLED_APPS
+    print(f"INSTALLED_APPS: {INSTALLED_APPS}")
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "singleSignOn.settings")
 
     try:
