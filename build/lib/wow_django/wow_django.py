@@ -1,7 +1,4 @@
 import os
-import sys
-
-import django
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../singleSignOn"))
 
@@ -20,6 +17,9 @@ def boot_django():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
+
+    execute_from_command_line(['manage.py', 'makemigrations'])
+    execute_from_command_line(['manage.py', 'migrate'])
     execute_from_command_line(['manage.py', 'runserver'])
 
 
