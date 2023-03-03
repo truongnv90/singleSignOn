@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='test_package',
+    name='wow_django_test_package',
     version='0.0.1',
     install_requires=[
         "cffi==1.15.1",
@@ -29,7 +29,7 @@ setup(
     url='https://github.com/truongnv90/singleSignOn',
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: APACHE License",
         "Operating System :: OS Independent",
     ],
     package_dir={"": "."},
