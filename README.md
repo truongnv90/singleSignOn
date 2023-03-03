@@ -56,3 +56,9 @@ comment following lines in /lib/python3.x/site-packages/django/core/management/b
 - lib doc: https://djangogrpcframework.readthedocs.io/en/latest/index.html
 
 # Task 3: build docker 
+
+# TASK 4:
+run 
+```
+pip install git+https://github.com/truongnv90/singleSignOn
+```
